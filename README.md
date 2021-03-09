@@ -26,7 +26,7 @@ Ubuntu 20.04 compute instance is used for this exercise
  
  5.Login to mongodb and create a database with name "cinema" as shown below .
  please follow tutorial : https://www.mongodb.com/basics/create-database
- ![mongologin](https://user-images.githubusercontent.com/77958988/110428309-1131e400-80cf-11eb-979a-16ba36f2201b.png)
+ ![mongologin](https://user-images.githubusercontent.com/77958988/110436551-632c3700-80da-11eb-9351-f1a8d869a50d.png)
 
  6.Add inbound rules as shown below
  ![inboundrules](https://user-images.githubusercontent.com/77958988/110428489-56561600-80cf-11eb-8e89-892daa7affc8.png)
