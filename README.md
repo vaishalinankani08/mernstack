@@ -21,19 +21,17 @@ Ubuntu 20.04 compute instance is used for this exercise
 
  3.In File ./client/src/api/index.js change the ip address of the server to the public ip address of the compute instance 
   ![axios](https://user-images.githubusercontent.com/77958988/110425452-628ba480-80ca-11eb-8948-098301608ea4.png)
+  
+ 4.Verify that mongodb service is running on compute instance using command "sudo systemctl status mongod"
  
- 4.In File ./client/src/api/index.js change the ip address of the server to the public ip address of the compute instance 
- 
- 5.Verify that mongodb service is running on compute instance using command "sudo systemctl status mongod"
- 
- 6.Login to mongodb and create a database with name "cinema" as shown below .
+ 5.Login to mongodb and create a database with name "cinema" as shown below .
  please follow tutorial : https://www.mongodb.com/basics/create-database
  ![mongologin](https://user-images.githubusercontent.com/77958988/110428309-1131e400-80cf-11eb-979a-16ba36f2201b.png)
 
- 7.Add inbound rules as shown below
+ 6.Add inbound rules as shown below
  ![inboundrules](https://user-images.githubusercontent.com/77958988/110428489-56561600-80cf-11eb-8e89-892daa7affc8.png)
 
- 8.Run backend and frontend for the movie application with below commands
+ 7.Run backend and frontend for the movie application with below commands
   ```
   #run client ( port 4000)
   cd client
@@ -42,7 +40,7 @@ Ubuntu 20.04 compute instance is used for this exercise
   cd server
   node index.js
   ```
- 9.Open the application GUI in webbrowser http://compute-instance-public-ip:4000
+ 8.Open the application GUI in webbrowser http://compute-instance-public-ip:4000
 # Steps for running containerized  movie app using docker host network
  Lets see how to containerize the movie application along with containerized mongodb.
  
