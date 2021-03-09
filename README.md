@@ -34,4 +34,5 @@ Ubuntu 20.04 compute instance is used for this exercise
   cd server
   node index.js
   ```
+ 9.Open the application GUI in webbrowser http://<compute-instance-public-ip>:4000
  
