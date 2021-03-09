@@ -32,7 +32,11 @@ Ubuntu 20.04 compute instance is used for this exercise
  6.Add inbound rules as shown below
  ![inboundrules](https://user-images.githubusercontent.com/77958988/110428489-56561600-80cf-11eb-8e89-892daa7affc8.png)
 
- 7.Run backend and frontend for the movie application with below commands
+ 7.Run backend and frontend for the movie application with below commands.
+   client port if required can be changed in file /home/ubuntu/mernstack/client/package.json 
+   
+   
+ 
   ```
   #run client ( port 4000)
   cd client
