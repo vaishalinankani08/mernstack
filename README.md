@@ -10,8 +10,7 @@ https://github.com/samaronybarros/movies-app
 
 Ubuntu 20.04 compute instance is used for this exercise
 
-![movie_create](https://user-images.githubusercontent.com/77958988/110424432-cc0ab380-80c8-11eb-88e1-d232c3208d17.png)
-# Steps for movie app
+# Steps for running movie app on ubuntu compute instance
  1.Install nodejs and npm on compute instance following below URL
   https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04  
    
