@@ -153,3 +153,6 @@ CONTAINER ID   IMAGE                    COMMAND                  CREATED        
 ````
 10.Open the application GUI in webbrowser http://compute-instance-public-ip:4000
 ![movieapp screen](https://user-images.githubusercontent.com/77958988/110434953-6f16f980-80d8-11eb-8711-240f3894b94b.png)
+
+11. click on "Create Movie" to craete a entry for movie
+ ![movie_create](https://user-images.githubusercontent.com/77958988/110424432-cc0ab380-80c8-11eb-88e1-d232c3208d17.png)
