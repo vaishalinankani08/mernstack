@@ -68,7 +68,7 @@ docker.io/library/mongo:latest
  
 3.run mongo db container  and create database cinema as shown below
 ````
-ubuntu@ip-172-31-94-114:~/mernstack/server$ sudo docker run -it --name=mongo -d -p27017:27017 mongo:latest
+ubuntu@ip-172-31-94-114:~/mernstack/server$ sudo docker run -it --name=mongo -d --network host --expose 27017  mongo:latest
 fe656477549aac046c9e19c2df7e1094c7048341eaf3fac52d7094fb2277f19f
 ubuntu@ip-172-31-94-114:~/mernstack/server$ sudo docker ps -a
 CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                      NAMES
@@ -139,3 +139,16 @@ mernstack/client   1.0.0     cab9f08e0846   4 minutes ago   1.13GB
 mongo              latest    bbfd3e575f12   4 days ago      449MB
 node               10        711c143a39dd   12 days ago     910MB
 ````
+9.Deploy docker containers for client and server as shown below
+````
+ubuntu@ip-172-31-94-114:~/mernstack$ sudo docker run -it --name=server -d --network host --expose 3000  mernstack/server:1.0.0
+690e01123932aba721cfc617bcec5bb1eacc1a386ffc59724a43cb6bd344d3ac
+ubuntu@ip-172-31-94-114:~/mernstack$ sudo docker run -it --name=client -d --network host --expose 4000  mernstack/client:1.0.0
+09fa6b9b898c0f309e6f50b5cfd82154b8f5c0bfda71f522333a77ca57103900
+ubuntu@ip-172-31-94-114:~/mernstack$ sudo docker ps -a
+CONTAINER ID   IMAGE                    COMMAND                  CREATED          STATUS          PORTS     NAMES
+09fa6b9b898c   mernstack/client:1.0.0   "docker-entrypoint.s…"   9 seconds ago    Up 9 seconds              client
+690e01123932   mernstack/server:1.0.0   "docker-entrypoint.s…"   20 seconds ago   Up 20 seconds             server
+82552720fb81   mongo:latest             "docker-entrypoint.s…"   5 minutes ago    Up 5 minutes              mongo
+````
+10.Open the application GUI in webbrowser http://compute-instance-public-ip:4000
