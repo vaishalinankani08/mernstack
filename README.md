@@ -65,4 +65,62 @@ docker.io/library/mongo:latest
  sudo systemctl stop mongod
  sudo systemctl status mongod
  ```
-3.
+ 
+3.run mongo db container using below command and create database cinema
+````
+ubuntu@ip-172-31-94-114:~/mernstack/server$ sudo docker run -it --name=mongo -d -p27017:27017 mongo:latest
+fe656477549aac046c9e19c2df7e1094c7048341eaf3fac52d7094fb2277f19f
+ubuntu@ip-172-31-94-114:~/mernstack/server$ sudo docker ps -a
+CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                      NAMES
+fe656477549a   mongo:latest   "docker-entrypoint.s…"   17 seconds ago   Up 16 seconds   0.0.0.0:27017->27017/tcp   mongo
+ubuntu@ip-172-31-94-114:~/mernstack/server$ sudo docker exec -it fe656477549a bash
+root@fe656477549a:/# ls
+bin   data  docker-entrypoint-initdb.d  home        lib    media  opt   root  sbin  sys  usr
+boot  dev   etc                         js-yaml.js  lib64  mnt    proc  run   srv   tmp  var
+root@fe656477549a:/#
+root@fe656477549a:/#
+root@fe656477549a:/# mongo
+MongoDB shell version v4.4.4
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("5a346343-74e1-472a-846d-4c86c8d1f505") }
+MongoDB server version: 4.4.4
+Welcome to the MongoDB shell.
+For interactive help, type "help".
+For more comprehensive documentation, see
+        https://docs.mongodb.com/
+Questions? Try the MongoDB Developer Community Forums
+        https://community.mongodb.com
+---
+The server generated these startup warnings when booting:
+        2021-03-08T18:07:01.082+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+        2021-03-08T18:07:01.858+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+---
+---
+        Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+        metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+        The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+        and anyone you share the URL with. MongoDB may use this information to make product
+        improvements and to suggest MongoDB products and deployment options to you.
+
+        To enable free monitoring, run the following command: db.enableFreeMonitoring()
+        To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+>
+---
+> show databases;
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+> use cinema
+switched to db cinema
+> exit
+bye
+root@ip-172-31-94-114:/# ls
+bin   data  docker-entrypoint-initdb.d  home        lib    media  opt   root  sbin  sys  usr
+boot  dev   etc                         js-yaml.js  lib64  mnt    proc  run   srv   tmp  var
+root@ip-172-31-94-114:/# exit
+exit
+
+````
+
