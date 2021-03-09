@@ -1,6 +1,11 @@
 # Introduction
 This learning path helps you contenarize mernstack movie application,that can be used for managing information about movies.
 This application uses mongodb for the database tie,Frontend is in reactjs and backend is in nodejs.
+References:
+https://medium.com/swlh/how-to-create-your-first-mern-mongodb-express-js-react-js-and-node-js-stack-7e8b20463e66
+Original github link:
+https://github.com/samaronybarros/movies-app
+
 Ubuntu 20.04 compute instance is used for this exercise
 
 ![movie_create](https://user-images.githubusercontent.com/77958988/110424432-cc0ab380-80c8-11eb-88e1-d232c3208d17.png)
