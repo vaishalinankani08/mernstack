@@ -156,5 +156,8 @@ CONTAINER ID   IMAGE                    COMMAND                  CREATED        
 
 11. Click on "Create Movie" to craete a entry for movie
  ![movie_create](https://user-images.githubusercontent.com/77958988/110424432-cc0ab380-80c8-11eb-88e1-d232c3208d17.png)
-12. Click on "List Movies" to craete a entry for movie
+ 
+12. Click on "List Movies" to list all movies
+![movie_list](https://user-images.githubusercontent.com/77958988/110435490-16942c00-80d9-11eb-8d1d-093d0d5d4cec.png)
+
 
