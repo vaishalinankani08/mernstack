@@ -120,4 +120,6 @@ root@ip-172-31-94-114:/# exit
 exit
 
 ````
+4. Write Dockerfile for frontend i.e. client
+5. Write Dockerfile for backend  i.e. server
 
