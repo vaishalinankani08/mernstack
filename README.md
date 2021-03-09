@@ -83,7 +83,7 @@ docker.io/library/mongo:latest
  sudo systemctl status mongod
  ```
  
-3.run mongo db container  and create database cinema as shown below
+3.run mongo db container  and create database with name cinema as shown below
 ````
 ubuntu@ip-172-31-94-114:~/mernstack/server$ sudo docker run -it --name=mongo -d --network host --expose 27017  mongo:latest
 fe656477549aac046c9e19c2df7e1094c7048341eaf3fac52d7094fb2277f19f
@@ -137,6 +137,7 @@ root@ip-172-31-94-114:/# exit
 exit
 
 ````
+
 
 4. Write Dockerfile for frontend i.e. client [Dockerfile](https://github.com/vaishalinankani08/mernstack/blob/main/client/Dockerfile) and place it in client folder
 5. Write Dockerfile for backend  i.e. server [Dockerfile](https://github.com/vaishalinankani08/mernstack/blob/main/server/Dockerfile) and place it in server folder.
