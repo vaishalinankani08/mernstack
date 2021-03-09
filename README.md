@@ -77,7 +77,7 @@ Digest: sha256:51f6fdbfc622d91e276ade7e6cf6491aa36ff2bd9b158dadb732f9e4a05f33ad
 Status: Downloaded newer image for mongo:latest
 docker.io/library/mongo:latest
   ```
-2.Stop mongodb service running using below command
+2.Stop mongodb service running on compute instance using below command
  ```
  sudo systemctl stop mongod
  sudo systemctl status mongod
