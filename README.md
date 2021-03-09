@@ -20,7 +20,10 @@ Ubuntu 20.04 compute instance is used for this exercise
  
  6.Login to mongodb and create a database with name "cinema" as shown below .
  please follow tutorial : https://www.mongodb.com/basics/create-database
+ ![mongologin](https://user-images.githubusercontent.com/77958988/110428309-1131e400-80cf-11eb-979a-16ba36f2201b.png)
+
+ 7.Add inbound rules as shown below
  
- 7.Run backend and frontend for the movie application with below commands
+ 8.Run backend and frontend for the movie application with below commands
  
  
