@@ -11,6 +11,13 @@ Ubuntu 20.04 compute instance is used for this exercise
  2.Install mongodb on compute instance following below URL 
    https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-20-04  
 
- 3.In File ./client/src/api/index.js change the ip address of the server to the public ip address of the compute instance
+ 3.In File ./client/src/api/index.js change the ip address of the server to the public ip address of the compute instance 
+  ![axios](https://user-images.githubusercontent.com/77958988/110425452-628ba480-80ca-11eb-8948-098301608ea4.png)
+ 
+ 4.In File ./client/src/api/index.js change the ip address of the server to the public ip address of the compute instance 
+ 5.Verify that mongodb service is running on compute instance using command "sudo systemctl status mongod"
+ 6.Login to mongodb and create a database with name "cinema" as shown below .
+ please follow tutorial : https://www.mongodb.com/basics/create-database
+ 7.Run backend and frontend for the movie application with below commands
  
  
