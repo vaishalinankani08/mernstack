@@ -1,6 +1,7 @@
 # Introduction
-This learning path helps you contenarize mernstack movie application,that can be used for managing information about movies.
+This learning path helps you dockerize mernstack movie application,that can be used for managing information about movies.
 This application uses mongodb for the database tie,Frontend is in reactjs and backend is in nodejs.
+frondend ie. client is run at port 4000 and  backend i.e. server is run at 3000 port over here.
 
 References:
 https://medium.com/swlh/how-to-create-your-first-mern-mongodb-express-js-react-js-and-node-js-stack-7e8b20463e66
