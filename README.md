@@ -120,6 +120,6 @@ root@ip-172-31-94-114:/# exit
 exit
 
 ````
-4. Write Dockerfile for frontend i.e. client
-5. Write Dockerfile for backend  i.e. server
+4. Write Dockerfile for frontend i.e. client [Dockerfile](https://github.com/vaishalinankani08/mernstack/blob/main/client/Dockerfile) .
+5. Write Dockerfile for backend  i.e. server [Dockerfile](https://github.com/vaishalinankani08/mernstack/blob/main/server/Dockerfile) .
 
