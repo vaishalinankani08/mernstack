@@ -12,9 +12,11 @@ Ubuntu 20.04 compute instance is used for this exercise
 
 # Steps for running movie app on ubuntu compute instance
  1.Install nodejs and npm on compute instance following below URL
+ 
   https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04  
    
  2.Install mongodb on compute instance following below URL 
+ 
    https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-20-04  
 
  3.In File ./client/src/api/index.js change the ip address of the server to the public ip address of the compute instance 
