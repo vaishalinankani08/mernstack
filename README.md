@@ -35,6 +35,9 @@ Ubuntu 20.04 compute instance is used for this exercise
  7.Run backend and frontend for the movie application with below commands.
    client port if required can be changed in file /home/ubuntu/mernstack/client/package.json    
    ![clientport](https://user-images.githubusercontent.com/77958988/110437936-e7cb8500-80db-11eb-8d59-5ffb30b5cbe0.png)
+   
+   server port if required can be changed in file /home/ubuntu/mernstack/server/index.js  
+   ![serverport](https://user-images.githubusercontent.com/77958988/110438427-5f99af80-80dc-11eb-9570-20394bdba190.png)
 
  
   ```
