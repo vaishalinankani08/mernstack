@@ -152,3 +152,4 @@ CONTAINER ID   IMAGE                    COMMAND                  CREATED        
 82552720fb81   mongo:latest             "docker-entrypoint.s…"   5 minutes ago    Up 5 minutes              mongo
 ````
 10.Open the application GUI in webbrowser http://compute-instance-public-ip:4000
+![movieapp screen](https://user-images.githubusercontent.com/77958988/110434953-6f16f980-80d8-11eb-8711-240f3894b94b.png)
