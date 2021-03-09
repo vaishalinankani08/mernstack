@@ -26,5 +26,17 @@ Ubuntu 20.04 compute instance is used for this exercise
  ![inboundrules](https://user-images.githubusercontent.com/77958988/110428489-56561600-80cf-11eb-8e89-892daa7affc8.png)
 
  8.Run backend and frontend for the movie application with below commands
- 
+ ```
+sudo docker login <region>.ocir.io
+#enter username as per the below format
+username:<tenancynamespace>/<username>
+password:authtoken generated in step 9
+```
+#run client ( port 4000)
+cd client
+npm start
+#run server ( port 3000)
+cd server
+node index.js
+```
  
