@@ -41,7 +41,7 @@ Ubuntu 20.04 compute instance is used for this exercise
   node index.js
   ```
  8.Open the application GUI in webbrowser http://compute-instance-public-ip:4000
-# Steps for running dockerized  movie app using  host network
+# Steps for running dockerized  movie app using host network
  Lets see how to dockerize the movie application along with containerized mongodb.
  
 1.Download mongodb docker image from DockerHub
