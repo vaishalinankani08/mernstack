@@ -66,7 +66,7 @@ docker.io/library/mongo:latest
  sudo systemctl status mongod
  ```
  
-3.run mongo db container using below command and create database cinema
+3.run mongo db container  and create database cinema as shown below
 ````
 ubuntu@ip-172-31-94-114:~/mernstack/server$ sudo docker run -it --name=mongo -d -p27017:27017 mongo:latest
 fe656477549aac046c9e19c2df7e1094c7048341eaf3fac52d7094fb2277f19f
@@ -116,9 +116,6 @@ local   0.000GB
 switched to db cinema
 > exit
 bye
-root@ip-172-31-94-114:/# ls
-bin   data  docker-entrypoint-initdb.d  home        lib    media  opt   root  sbin  sys  usr
-boot  dev   etc                         js-yaml.js  lib64  mnt    proc  run   srv   tmp  var
 root@ip-172-31-94-114:/# exit
 exit
 
