@@ -35,4 +35,28 @@ Ubuntu 20.04 compute instance is used for this exercise
   node index.js
   ```
  9.Open the application GUI in webbrowser http://<compute-instance-public-ip>:4000
-# Steps for movie app
+# Steps for running containerized  movie app
+ Lets see how to containerize the movie application along with containerized mongodb.
+  1.Download mongodb docker image from DockerHub
+  ```
+  ubuntu@ip-172-31-94-114:~/up$ sudo docker pull mongo
+Using default tag: latest
+latest: Pulling from library/mongo
+92dc2a97ff99: Pull complete
+be13a9d27eb8: Pull complete
+c8299583700a: Pull complete
+f61ed17142e4: Pull complete
+bed7676d225b: Pull complete
+ba553bcfc69c: Pull complete
+e5046b6c236f: Pull complete
+80191acfded2: Pull complete
+d41d63fc76cc: Pull complete
+5605b8c2e9f7: Pull complete
+e8b16825b485: Pull complete
+3d40ccce1309: Pull complete
+Digest: sha256:51f6fdbfc622d91e276ade7e6cf6491aa36ff2bd9b158dadb732f9e4a05f33ad
+Status: Downloaded newer image for mongo:latest
+docker.io/library/mongo:latest
+  ```
+    
+ 
