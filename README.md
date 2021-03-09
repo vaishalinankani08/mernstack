@@ -130,3 +130,12 @@ ubuntu@ip-172-31-94-114:~/mernstack/client$ sudo docker build -t mernstack/clien
 ````
 ubuntu@ip-172-31-94-114:~/mernstack/server$ sudo docker build -t mernstack/server:1.0.0 
 ````
+8.verify that both client and server images are created as shown below
+````
+ubuntu@ip-172-31-94-114:~/mernstack/server$ sudo docker images
+REPOSITORY         TAG       IMAGE ID       CREATED         SIZE
+mernstack/server   1.0.0     bffb9dd45350   7 seconds ago   921MB
+mernstack/client   1.0.0     cab9f08e0846   4 minutes ago   1.13GB
+mongo              latest    bbfd3e575f12   4 days ago      449MB
+node               10        711c143a39dd   12 days ago     910MB
+````
