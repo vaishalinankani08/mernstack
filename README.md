@@ -23,7 +23,8 @@ Ubuntu 20.04 compute instance is used for this exercise
  ![mongologin](https://user-images.githubusercontent.com/77958988/110428309-1131e400-80cf-11eb-979a-16ba36f2201b.png)
 
  7.Add inbound rules as shown below
- 
+ ![inboundrules](https://user-images.githubusercontent.com/77958988/110428489-56561600-80cf-11eb-8e89-892daa7affc8.png)
+
  8.Run backend and frontend for the movie application with below commands
  
  
