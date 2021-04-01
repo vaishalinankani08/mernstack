@@ -138,8 +138,10 @@ exit
 
 ````
 
-4.Write Dockerfile for frontend i.e. client [Dockerfile](https://github.com/vaishalinankani08/mernstack/blob/main/client/Dockerfile) and place it in client folder
+4.Write Dockerfile for frontend i.e. client [Dockerfile](https://github.com/vaishalinankani08/mernstack/blob/main/client/Dockerfile) and place it in client folder.
+
 5.Write Dockerfile for backend  i.e. server [Dockerfile](https://github.com/vaishalinankani08/mernstack/blob/main/server/Dockerfile) and place it in server folder.
+
 6.Create docker image for client
 ````
 ubuntu@ip-172-31-94-114:~/mernstack/client$ sudo docker build -t mernstack/client:1.0.0 .
